@@ -1,0 +1,30 @@
+{
+  "name": "alarm-clock",
+  "version": "1.0.0",
+  "description": "An alarm clock.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server/app.js",
+    "server-dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajpawlicki/alarm-clock.git"
+  },
+  "author": "Aloysius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajpawlicki/alarm-clock/issues"
+  },
+  "homepage": "https://github.com/ajpawlicki/alarm-clock#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
