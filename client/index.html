@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>What time is it?</h1>
+    <div class="clock">
+      <span class="hours"></span>
+      <span class="minutes"></span>
+      <span class="seconds"></span>
+    </div>
+    
+    <h1>Set an alarm!</h1>
+    <input type="number" placeholder="Hours" class="alarm-hours">
+    <input type="number" placeholder="Minutes" class="alarm-minutes">
+    <input type="number" placeholder="Seconds" class="alarm-seconds">
+    <input type="submit" id="submit">
+    <audio id="alarm"
+           src="http://www.soundjay.com/button/beep-05.wav"
+           autostart="false" ></audio>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
